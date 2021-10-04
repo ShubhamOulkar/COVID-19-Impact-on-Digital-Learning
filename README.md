@@ -47,3 +47,4 @@ In the final data set, records for the TOP 20 products are evenly distributed. G
 
 B.2. What are the TOP 23 products by access/engagement index?
 I choose TOP 23 products because last 4 product has same percentage access. It might be helpful in our analysis.
+![image1](1.png)
