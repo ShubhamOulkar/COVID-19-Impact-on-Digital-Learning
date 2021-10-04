@@ -47,7 +47,7 @@ In the final data set, records for the TOP 20 products are evenly distributed. G
 
 B.2. What are the TOP 23 products by access/engagement index?
 I choose TOP 23 products because last 4 product has same percentage access. It might be helpful in our analysis.
-<img src="freereduced%2017$20district.html">
+
 Google products are leaders of the education system in the United States. Surprisingly YouTube is in the top 5, this is the main product to do our analysis. Real-time meeting and video sharing products like Meet and Zoom are in the top 10 by the percentage of access. Clever digital learning platform for K12 schools is in 9th place.
 
 B.3. What are the TOP 20 products by engagement_index?
