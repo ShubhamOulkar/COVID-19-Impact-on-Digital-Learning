@@ -52,6 +52,7 @@ Google products are leaders of the education system in the United States. Surpri
 
 B.3. What are the TOP 20 products by engagement_index?
 Again Google Products are leaders by engagement index. As we can see most of the products are common as we have seen earlier. Surprisingly Instagram is at 14th place by engagement index. These two charts show that there is a possibility of correlation between the percentage of access and engagement index. Note:this fact was assumed during the data preparation stage. In data preparation, we removed products rows those has percentage access zero for each school. Let's validate this fact is true.
+<img src="output-charts-png/1.1.png" width="1000" height="400">
 
 B.4. Are engagement index and percentage access correlated?
 Correlation is calculated for random 10000 samples from the data set.
