@@ -47,4 +47,43 @@ In the final data set, records for the TOP 20 products are evenly distributed. G
 
 B.2. What are the TOP 23 products by access/engagement index?
 I choose TOP 23 products because last 4 product has same percentage access. It might be helpful in our analysis.
-![image1](1.png)
+
+Google products are leaders of the education system in the United States. Surprisingly YouTube is in the top 5, this is the main product to do our analysis. Real-time meeting and video sharing products like Meet and Zoom are in the top 10 by the percentage of access. Clever digital learning platform for K12 schools is in 9th place.
+
+B.3. What are the TOP 20 products by engagement_index?
+Again Google Products are leaders by engagement index. As we can see most of the products are common as we have seen earlier. Surprisingly Instagram is at 14th place by engagement index. These two charts show that there is a possibility of correlation between the percentage of access and engagement index. Note:this fact was assumed during the data preparation stage. In data preparation, we removed products rows those has percentage access zero for each school. Let's validate this fact is true.
+
+B.4. Are engagement index and percentage access correlated?
+Correlation is calculated for random 10000 samples from the data set.
+Note: Value of correlation changes if we re-run codes.
+
+The engagement index and percentage of access are positively correlated. This plot also shows that our dataset has more records for low engagement index and low percentage of access. This chart also helps us to select one of the variables for our analysis. We are going to choose the engagement index in our analysis.
+
+B.5. How do states engage with TOP 11 products in 2020?
+TOP 10 products by engagement index are Google Docs, Google Classroom, YouTube, Instagram, Canvas, Schoology, Meet, Kahoot!, Google Forms, Google Drive, Seesaw: The Learning Journal. I am doing Statewise analysis for engagement index because the distribution of records for states has an outlier effect. Mean values will get affected by outliers. It is a safe approach to do state-wise analysis, as we know the top 20 products have no outlier effect. YouTube and Instagram also added for analysis. Mean is calculated for each product in each school in each state on a given week.
+
+Insights:-
+
+1) YouTube and Instagram don't have records for the first 20 weeks for all states. We can say that students and teachers were started to use these platforms for engagement.
+
+2) Meet, Schoology, Seesaw: The Learning Journal -> These platforms have a unique engagement index in the dataset. Their engagement starts growing in the 10th week then goes down in holidays and again reaches to peaks up to 5K-10K engagements for all states.
+
+3) Google Docs, Google Classroom, Google Drive, Google Forms are leaders by engagement index. We can see that engagement starts growing in the 10th week and engagements are higher than any other product. Also, we can see that engagements are less for weeks 34-45 compare to weeks 8-20. (reason: other products competing with google products)
+
+4) Kahoot! and Canvas are completely losing engagement index throughout the year. Say COVID-19 hit these products most. These products are mostly used by schools and institutions. This is the main reason that in covid they are affected more than others.
+
+Other useful insights:-
+
+1) Arizona students don't use products like Instagram, Schoology, Meet, Seesaw: the learning journal, canvas.
+
+2) Michigan state has a unique engagement index. The engagement index is increased for weeks 34-35. During the 10th-20th week, engagement was around 1K for all products but it reached up to 10K for weeks 34-45. The education system is improved in Michigan in COVID-19.
+
+3) Minnesota state has records for 1st 17 weeks. We can not do covid-19 analysis for this state.
+
+4) North Carolina state has improved education system in covid. After holidays engagements were higher than march covid engagement.
+
+5) North Dakota State doesn't have engagement records after the 10th week. A complete collapse in education for this state. Also, we know that this state has only one district(school) in our dataset.
+
+6) Tennessee state improved in engagement index.
+
+7) Texas all products lose engagement
