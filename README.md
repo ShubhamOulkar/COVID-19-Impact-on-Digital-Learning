@@ -58,7 +58,7 @@ B.4. Are engagement index and percentage access correlated?
 Correlation is calculated for random 10000 samples from the data set.
 Note: Value of correlation changes if we re-run codes.
 
-<img src="output-charts-png/2.png" width="500" height="500">
+<img src="output-charts-png/2.png" width="800" height="500">
 
 The engagement index and percentage of access are positively correlated. This plot also shows that our dataset has more records for low engagement index and low percentage of access. This chart also helps us to select one of the variables for our analysis. We are going to choose the engagement index in our analysis.
 
