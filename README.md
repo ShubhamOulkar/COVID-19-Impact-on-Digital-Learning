@@ -86,4 +86,69 @@ Other useful insights:-
 
 6) Tennessee state improved in engagement index.
 
-7) Texas all products lose engagement
+7) Texas all products lose engagement from 34-45 weeks except Schoology. Surprisingly google docs and google classroom engagement index decreased by half during 34-45 weeks.
+
+8) Washington state improved engagement index for education.
+
+9) All other states except above are showing same kind of engagement index for all year.
+
+
+C. What is the relation between the Engagement index and Black/Hispanic categories?
+Outliers diverging our analysis. Let's do state wise analysis.
+
+Let's do analysis for Black/Hispanic states (60-100% category)
+
+These states are Arizona,California,Connecticut,District Of Columbia,Illinois, New York,Indiana,Texas,Virginia.
+Insights from Black/Hispanic states:-
+
+1) Arizona -> For weeks 10-20 engagement index was peak 1000 after the 30th-week engagement index reached up to 2000 for black/Hispanic students. Other categories are not available in this state.
+
+2) California -> This state includes all category schools of black/Hispanic variable. If we compare charts for 80-100% and 0-20% category, 0-20% category school have engagement more than 80-100%. The overall increase in engagement for all schools in California state.(select category one by one you will see an increase for each category)
+
+3) Connecticut -> This state doesn't have category 80-100%. But this state shows lower engagement as the black/Hispanic percentage increases.
+
+4) Indiana -> if we compare 80-100% and 0-20% (select these two categories) we can see that during week 8-10 sudden drop in engagement for 80-100% category, there is drop for 0-20% category but slowly decreasing week by week. Surprisingly this state shows a higher engagement index for 80-100% category than 0-20% category.
+
+5) New York -> Only state throughout the year 80-100% category has higher engagement than 0-20%.
+
+D.1. What is the effect of covid-19 on free/reduced schools?
+Outliers diverging our analysis. Let's do state wise analysis.
+
+Let's do analysis for free/reduced schools(districts) (60-100% category)
+
+These schools are 4550, 7164, 7975, 3248, 5042, 8784, 9043, 2870, 3222, 4808, 6144, 3550, 9536, 6584, 7767, 1791, 2130.
+Insights:-
+
+1) 2870 -> This school has only one category 60-80% free/reduced. Students who belong to this category lose engagement due to pandemics.
+
+2) 3222 -> THis district starts losing engagement with the students at the start of the pandemic, then gains engagement for all weeks.
+
+3) 3248 -> At the start of the pandemic this district gain more engagement then start decreasing over the year.
+
+4) 3550 -> At the start of the pandemic this district lose engagement for the reduced/free category. After week 17 this district doesn't have any records. (state Minnesota )
+
+5) 9536 -> At the start of the pandemic this district reach a higher engagement index(4K) then its stars slowly decreasing.
+
+6) 7164,7767,7975,9043 districts show good engagement index.
+
+D.2 What is the engagement index for Lower free/reduced Schools?
+Conclusion :- Engagement index for lower free/reduced not that much affected in sept.-nov. period than march-may period. But schools with a higher free/reduced category schools affected more.
+
+E.1. What are the trends of Engagement index with expenditure?
+Insights:-
+
+1) 4k-6k -> This category expenditure schools shows a decrease in engagement from sept-nov.
+
+2) 22k-24k -> High expenditure schools showing less engagement index for sept-nov. It is Surprisingly not acceptable.
+
+3) 10K -12K -> This category decrease engagement after the 40th week.
+
+E.2. Calculate the percentage of increase or decrease in mean Engagement Index for expenditure categories
+E.3. Why is engagement negative for expenditure 22k-24k category?
+22k-24k expenditure categories school(7778) from New York state. This was happened due to COVID-19 cases were higher than in any other state. For period sept-nov this state was worst affected by COVID in the world.
+
+F. How many products gain or lose engagement index throughout the pandemic COVID-19?
+Products with increased Engagement Index
+Products with decreased Engagement Index
+
+
