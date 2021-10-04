@@ -57,12 +57,12 @@ Again Google Products are leaders by engagement index. As we can see most of the
 B.4. Are engagement index and percentage access correlated?
 Correlation is calculated for random 10000 samples from the data set.
 Note: Value of correlation changes if we re-run codes.
-
+<img src="output-charts-png/2.png" width="400" height="400">
 The engagement index and percentage of access are positively correlated. This plot also shows that our dataset has more records for low engagement index and low percentage of access. This chart also helps us to select one of the variables for our analysis. We are going to choose the engagement index in our analysis.
 
 B.5. How do states engage with TOP 11 products in 2020?
 TOP 10 products by engagement index are Google Docs, Google Classroom, YouTube, Instagram, Canvas, Schoology, Meet, Kahoot!, Google Forms, Google Drive, Seesaw: The Learning Journal. I am doing Statewise analysis for engagement index because the distribution of records for states has an outlier effect. Mean values will get affected by outliers. It is a safe approach to do state-wise analysis, as we know the top 20 products have no outlier effect. YouTube and Instagram also added for analysis. Mean is calculated for each product in each school in each state on a given week.
-
+<img src="output-charts-png/3.png" width="900" height="400">
 Insights:-
 
 1) YouTube and Instagram don't have records for the first 20 weeks for all states. We can say that students and teachers were started to use these platforms for engagement.
@@ -96,9 +96,9 @@ Other useful insights:-
 
 C. What is the relation between the Engagement index and Black/Hispanic categories?
 Outliers diverging our analysis. Let's do state wise analysis.
-
+<img src="output-charts-png/4.png" width="1000" height="400">
 Let's do analysis for Black/Hispanic states (60-100% category)
-
+<img src="output-charts-png/5.png" width="1000" height="400">
 These states are Arizona,California,Connecticut,District Of Columbia,Illinois, New York,Indiana,Texas,Virginia.
 Insights from Black/Hispanic states:-
 
@@ -114,9 +114,9 @@ Insights from Black/Hispanic states:-
 
 D.1. What is the effect of covid-19 on free/reduced schools?
 Outliers diverging our analysis. Let's do state wise analysis.
-
+<img src="output-charts-png/6.png" width="1000" height="400">
 Let's do analysis for free/reduced schools(districts) (60-100% category)
-
+<img src="output-charts-png/7.png" width="1000" height="400">
 These schools are 4550, 7164, 7975, 3248, 5042, 8784, 9043, 2870, 3222, 4808, 6144, 3550, 9536, 6584, 7767, 1791, 2130.
 Insights:-
 
@@ -133,9 +133,11 @@ Insights:-
 6) 7164,7767,7975,9043 districts show good engagement index.
 
 D.2 What is the engagement index for Lower free/reduced Schools?
+<img src="output-charts-png/8.png" width="1000" height="400">
 Conclusion :- Engagement index for lower free/reduced not that much affected in sept.-nov. period than march-may period. But schools with a higher free/reduced category schools affected more.
 
 E.1. What are the trends of Engagement index with expenditure?
+<img src="output-charts-png/9.png" width="1000" height="400">
 Insights:-
 
 1) 4k-6k -> This category expenditure schools shows a decrease in engagement from sept-nov.
@@ -145,11 +147,12 @@ Insights:-
 3) 10K -12K -> This category decrease engagement after the 40th week.
 
 E.2. Calculate the percentage of increase or decrease in mean Engagement Index for expenditure categories
+<img src="output-charts-png/10.png" width="1000" height="400">
 E.3. Why is engagement negative for expenditure 22k-24k category?
 22k-24k expenditure categories school(7778) from New York state. This was happened due to COVID-19 cases were higher than in any other state. For period sept-nov this state was worst affected by COVID in the world.
 
 F. How many products gain or lose engagement index throughout the pandemic COVID-19?
 Products with increased Engagement Index
+<img src="output-charts-png/11.png" width="1000" height="400">
 Products with decreased Engagement Index
-
-
+<img src="output-charts-png/12.png" width="1000" height="400">
