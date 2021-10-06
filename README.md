@@ -158,5 +158,6 @@ E.3. Why is engagement negative for expenditure 22k-24k category?
 ## F. How many products gain or lose engagement index throughout the pandemic COVID-19?
 ### Products with increased Engagement Index
 <img src="output-charts-png/11.png" width="1000" height="600">
+
 ### Products with decreased Engagement Index
 <img src="output-charts-png/12.png" width="1000" height="600">
