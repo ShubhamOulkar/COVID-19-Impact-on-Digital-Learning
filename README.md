@@ -4,7 +4,7 @@
 The COVID-19 Pandemic has disrupted learning for more than 56 million students in the United States. In the Spring of 2020, most states and local governments across the U.S. closed educational institutions to stop the spread of the virus. In response, schools and teachers have attempted to reach students remotely through distance learning tools and digital platforms. Until today, concerns of the exacaberting digital divide and long-term learning loss among America’s most vulnerable learners continue to grow.
 
 
-A. Data Preparation
+##A. Data Preparation
 Objectives of Data preparation:-
 
 1. Cleaning provided datasets
@@ -29,7 +29,7 @@ Engagement file Preparation:-
 
 It is a list of the percentage of access and engagement index for each product in schools. From the data set, we assume that if the percentage of access is zero then engagement is also zero. So that product with zero percentage of access is deleted in the engagement file. We use this approach because this data set is quite large. Deleting rows makes our processing bit a faster. In simple words, we are helping our machines to reduce processing time.
 
-B. Data Exploration
+##B. Data Exploration
 Objectives Of Data exploration:-
 
 Distribution of states and products in table format.
@@ -96,7 +96,7 @@ Other useful insights:-
 9) All other states except above are showing same kind of engagement index for all year.
 
 
-C. What is the relation between the Engagement index and Black/Hispanic categories?
+##C. What is the relation between the Engagement index and Black/Hispanic categories?
 Outliers diverging our analysis. Let's do state wise analysis.
 <img src="output-charts-png/4.png" width="1000" height="400">
 Let's do analysis for Black/Hispanic states (60-100% category)
@@ -114,7 +114,7 @@ Insights from Black/Hispanic states:-
 
 5) New York -> Only state throughout the year 80-100% category has higher engagement than 0-20%.
 
-D.1. What is the effect of covid-19 on free/reduced schools?
+##D.1. What is the effect of covid-19 on free/reduced schools?
 Outliers diverging our analysis. Let's do state wise analysis.
 <img src="output-charts-png/6.png" width="1000" height="400">
 Let's do analysis for free/reduced schools(districts) (60-100% category)
@@ -134,11 +134,11 @@ Insights:-
 
 6) 7164,7767,7975,9043 districts show good engagement index.
 
-D.2 What is the engagement index for Lower free/reduced Schools?
+##D.2 What is the engagement index for Lower free/reduced Schools?
 <img src="output-charts-png/8.png" width="1000" height="400">
 Conclusion :- Engagement index for lower free/reduced not that much affected in sept.-nov. period than march-may period. But schools with a higher free/reduced category schools affected more.
 
-E.1. What are the trends of Engagement index with expenditure?
+##E.1. What are the trends of Engagement index with expenditure?
 <img src="output-charts-png/9.png" width="1000" height="400">
 Insights:-
 
@@ -148,12 +148,12 @@ Insights:-
 
 3) 10K -12K -> This category decrease engagement after the 40th week.
 
-E.2. Calculate the percentage of increase or decrease in mean Engagement Index for expenditure categories
+##E.2. Calculate the percentage of increase or decrease in mean Engagement Index for expenditure categories
 <img src="output-charts-png/10.png" width="1000" height="600">
 E.3. Why is engagement negative for expenditure 22k-24k category?
 22k-24k expenditure categories school(7778) from New York state. This was happened due to COVID-19 cases were higher than in any other state. For period sept-nov this state was worst affected by COVID in the world.
 
-F. How many products gain or lose engagement index throughout the pandemic COVID-19?
+##F. How many products gain or lose engagement index throughout the pandemic COVID-19?
 Products with increased Engagement Index
 <img src="output-charts-png/11.png" width="1000" height="600">
 Products with decreased Engagement Index
