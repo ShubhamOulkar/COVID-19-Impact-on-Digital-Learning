@@ -19,11 +19,13 @@ Objectives of Data preparation:-
 
 Data preparation starts from importing data into the Kaggle notebook. Data sets used in this notebook are from Learn platform. Some additional data sets used here are state education rank and closing dates for state schools in the USA. Named these files as external datasets. How to join these data sets and What are the keys for connecting them, everything is shown in the Data joining diagram.
 
-### District info data file Preparation:- This dataset contains 233 rows 7 columns. Columns are ranges for each sub-category. In the cleaning process, brackets are removed and assigned variables that we can understand. This file also contains 57 NaN rows (57 schools hide by data provider). These rows are deleted from our dataset. Percentage of free/reduced, Percentage of black/Hispanic, Expenditure total, connection ratio columns contains missing values. As we know some of these variables do not apply to all states in the USA. So that if there is a missing value for a particular state then we fill these missings by zeros. This makes sense because some states are well developed, there is the possibility that these variables are not applicable. After processing this file contain 176 schools with all variable.
+### District info data file Preparation:- 
+This dataset contains 233 rows 7 columns. Columns are ranges for each sub-category. In the cleaning process, brackets are removed and assigned variables that we can understand. This file also contains 57 NaN rows (57 schools hide by data provider). These rows are deleted from our dataset. Percentage of free/reduced, Percentage of black/Hispanic, Expenditure total, connection ratio columns contains missing values. As we know some of these variables do not apply to all states in the USA. So that if there is a missing value for a particular state then we fill these missings by zeros. This makes sense because some states are well developed, there is the possibility that these variables are not applicable. After processing this file contain 176 schools with all variable.
 
 The distribution of districts(Schools) shows that Connecticut has 30 schools whereas North Dakota, Minnesota, etc has only one school. This may create a discrepancy in our analysis. So make a note that whenever I aggregate data at the state level it won't diverge my analysis.
 
-### Product info data file Preparation:- Only product URL variable is deleted from dataset.
+### Product info data file Preparation:- 
+Only product URL variable is deleted from dataset.
 
 ### Engagement file Preparation:-
 
